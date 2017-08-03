@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+  -ms-align-items: center;
+  align-items: center;
+  background-color: rgba( 250, 243, 217, 0.2);
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height: 100vh;
+  width: 100%;
+}
+
+.front-page {
+  -ms-align-items: center;
+  align-items: center;
+  background-color: rgba(250, 243, 217, 0.2);
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height: 100vh;
+  width: 100%;
+}
+
+.front-page-compliment {
+  -ms-align-items: center;
+  align-items: center;
+  background-color: rgba(237, 213, 173, 0.6);
+  border-radius: 20px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 30%;
+  margin-top: 5%;
+  padding-left: 10px;
+  padding-top: 25px;
+  text-align: center;
+  width: 50%;
+  overflow-y: scroll;
+}
+
+.App-header {
+  -ms-align-items: center;
+  align-items: center;
+  background-color: rgba(1, 132, 69, 0.4);
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 15vh;
+  width: 100vw;
+}
+
+.button {
+  margin-top: 5%;
+  width: 30%;
+  border-radius: 20%;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.poetrose {
+  height: 40%;
+  overflow-y: scroll;
+}
+
+@media (max-width: 376px) {
+  h1 {
+    font-size: 1.5em;
+  }
+  .App-header {
+    height: 15%;
+  }
+}
